@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-task/task/v3/args"
-	"github.com/go-task/task/v3/internal/omap"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3/args"
+	"github.com/wailsapp/task/v3/internal/omap"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 func TestArgs(t *testing.T) {

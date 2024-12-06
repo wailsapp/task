@@ -12,10 +12,10 @@ import (
 
 	"github.com/radovskyb/watcher"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/fingerprint"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/fingerprint"
+	"github.com/wailsapp/task/v3/internal/logger"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 const defaultWatchInterval = 5 * time.Second

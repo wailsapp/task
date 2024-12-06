@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/internal/sysinfo"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/filepathext"
+	"github.com/wailsapp/task/v3/internal/logger"
+	"github.com/wailsapp/task/v3/internal/sysinfo"
 )
 
 var (

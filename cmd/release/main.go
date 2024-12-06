@@ -12,7 +12,7 @@ import (
 	"github.com/otiai10/copy"
 	"github.com/spf13/pflag"
 
-	"github.com/go-task/task/v3/errors"
+	"github.com/wailsapp/task/v3/errors"
 )
 
 const (

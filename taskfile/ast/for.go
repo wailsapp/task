@@ -3,9 +3,9 @@ package ast
 import (
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/deepcopy"
-	"github.com/go-task/task/v3/internal/omap"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/deepcopy"
+	"github.com/wailsapp/task/v3/internal/omap"
 )
 
 type For struct {

@@ -14,7 +14,7 @@ import (
 	"mvdan.cc/sh/v3/shell"
 	"mvdan.cc/sh/v3/syntax"
 
-	"github.com/go-task/task/v3/errors"
+	"github.com/wailsapp/task/v3/errors"
 )
 
 // RunCommandOptions is the options for the RunCommand func

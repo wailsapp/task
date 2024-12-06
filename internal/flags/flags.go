@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/experiments"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/experiments"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 const usage = `Usage: task [flags...] [task...]

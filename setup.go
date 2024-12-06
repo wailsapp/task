@@ -12,15 +12,15 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/sajari/fuzzy"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/compiler"
-	"github.com/go-task/task/v3/internal/execext"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/internal/output"
-	"github.com/go-task/task/v3/internal/version"
-	"github.com/go-task/task/v3/taskfile"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/compiler"
+	"github.com/wailsapp/task/v3/internal/execext"
+	"github.com/wailsapp/task/v3/internal/filepathext"
+	"github.com/wailsapp/task/v3/internal/logger"
+	"github.com/wailsapp/task/v3/internal/output"
+	"github.com/wailsapp/task/v3/internal/version"
+	"github.com/wailsapp/task/v3/taskfile"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 func (e *Executor) Setup() error {

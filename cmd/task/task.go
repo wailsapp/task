@@ -9,16 +9,16 @@ import (
 	"github.com/spf13/pflag"
 	"mvdan.cc/sh/v3/syntax"
 
-	"github.com/go-task/task/v3"
-	"github.com/go-task/task/v3/args"
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/experiments"
-	"github.com/go-task/task/v3/internal/flags"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/internal/sort"
-	ver "github.com/go-task/task/v3/internal/version"
-	"github.com/go-task/task/v3/taskfile"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3"
+	"github.com/wailsapp/task/v3/args"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/experiments"
+	"github.com/wailsapp/task/v3/internal/flags"
+	"github.com/wailsapp/task/v3/internal/logger"
+	"github.com/wailsapp/task/v3/internal/sort"
+	ver "github.com/wailsapp/task/v3/internal/version"
+	"github.com/wailsapp/task/v3/taskfile"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 func main() {
@@ -145,7 +145,7 @@ func run() error {
 		return err
 	}
 	if experiments.AnyVariables.Enabled {
-		logger.Warnf("The 'Any Variables' experiment flag is no longer required to use non-map variable types. If you wish to use map variables, please use 'TASK_X_MAP_VARIABLES' instead. See https://github.com/go-task/task/issues/1585\n")
+		logger.Warnf("The 'Any Variables' experiment flag is no longer required to use non-map variable types. If you wish to use map variables, please use 'TASK_X_MAP_VARIABLES' instead. See https://github.com/wailsapp/task/issues/1585\n")
 	}
 
 	// If the download flag is specified, we should stop execution as soon as

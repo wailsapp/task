@@ -7,7 +7,7 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/errors"
+	"github.com/wailsapp/task/v3/errors"
 )
 
 // NamespaceSeparator contains the character that separates namespaces

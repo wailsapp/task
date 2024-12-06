@@ -6,9 +6,9 @@ import (
 
 	"github.com/mattn/go-zglob"
 
-	"github.com/go-task/task/v3/internal/execext"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3/internal/execext"
+	"github.com/wailsapp/task/v3/internal/filepathext"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 func Globs(dir string, globs []*ast.Glob) ([]string, error) {

@@ -22,12 +22,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-task/task/v3"
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/experiments"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/wailsapp/task/v3"
+	"github.com/wailsapp/task/v3/errors"
+	"github.com/wailsapp/task/v3/internal/experiments"
+	"github.com/wailsapp/task/v3/internal/filepathext"
+	"github.com/wailsapp/task/v3/internal/logger"
+	"github.com/wailsapp/task/v3/taskfile/ast"
 )
 
 func init() {
